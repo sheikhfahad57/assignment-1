@@ -16,15 +16,15 @@ a {
 }
 
 /* hero section start */
-#hero{
+#hero {
   display: flex;
   padding: 10%;
 }
-#hero .left{
-    width: 50%;
+#hero .left {
+  width: 50%;
 }
-#hero .right{
-    width: 50%;
+#hero .right {
+  width: 50%;
 }
 #hero .left .textbox {
   border-left: 4px solid #ff5959;
@@ -43,78 +43,96 @@ a {
 #hero .left p {
   padding: 35px 0px;
 }
-#hero .right img{
-    width: 350px;
-    margin-left: 100px;
+#hero .right img {
+  width: 350px;
+  margin-left: 100px;
 }
 /* hero section end  */
 
 /* mission section start  */
 #mission {
-     padding: 0px 10%;
-     text-align: center;
-     }
-    
+  padding: 0px 10%;
+  text-align: center;
+}
 
-.mission-part{
-    display: flex;
+.mission-part {
+  display: flex;
+}
 
-
+#mission h1 {
+  color: #13103a;
+  font-size: 55px;
+  font-style: bold;
 }
-    
-#mission h1{
-    color: #13103A;
-    font-size: 55px;  
-    font-style: bold;
-   
+#mission h1 span {
+  color: #ffad5a;
+  font-weight: bold;
 }
-#mission h1 span{
-    color: #FFAD5A;
-    font-weight: bold;
+#mission .mission-part img {
+  width: 140px;
 }
-#mission .mission-part img{
-    width: 140px;
-}
-#mission .card{
-    background-color: #e5e5f0;
-    padding: 20px;
-    margin: 20px;
-    width: 350px;
-    height: 400px;
-    border-radius: 10px;
-    text-align: left;
+#mission .card {
+  background-color: #e5e5f0;
+  padding: 20px;
+  margin: 20px;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  text-align: left;
 }
 /* mission section end */
-#mission::after{
-    content: '';
-    display: block;
-    clear: both;
+#mission::after {
+  content: "";
+  display: block;
+  clear: both;
 }
- /* develop section start  */
-#develop{
-    display: flex;
-    padding: 10%;
+/* develop section start  */
+#develop {
+  display: flex;
+  padding: 10%;
+}
+#develop .pic {
+  width: 40%;
+}
+#develop img {
+  width: 400px;
+}
+#develop .textbox {
+  padding: 40px;
+}
+#develop .textbox a {
+  display: inline-block;
+  margin-top: 30px;
+}
+#develop .textbox h1 {
+  color: #333333;
+  font-size: 45px;
+  font-weight: bold;
+}
+/* develop section end  */
 
+/* global community start  */
+#community {
+  display: flex;
+  padding: 10%;
 }
-#develop .pic{
-    width: 40%;
+#community .pic {
+  width: 40%;
 }
-#develop img{
-    width: 400px;
+#community img {
+  width: 400px;
+}
+#community .textbox {
+  padding: 40px;
+}
+#community .textbox a {
+  display: inline-block;
+  margin-top: 30px;
+}
+#community .textbox h1 {
+  color: #333333;
+  font-size: 45px;
+  font-weight: bold;
+}
 
-}
-#develop .textbox{
-    padding: 40px;
-}
-#develop .textbox a{
-    display: inline-block;
-    margin-top: 30px;
-    
-}
-#develop .textbox h1{
-    color: #333333;   
-    font-size: 45px;
-    font-weight: bold;
-   
-}
- /* develop section end  */
+/* global community end  */
