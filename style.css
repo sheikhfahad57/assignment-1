@@ -181,7 +181,6 @@ ul li::after {
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
-
 ul li.html::after {
   animation-name: html;
 }
