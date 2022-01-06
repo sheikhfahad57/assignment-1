@@ -64,8 +64,8 @@ a {
     
 #mission h1{
     color: #13103A;
-    font-size: 55px;
-    font-weight: 900;
+    font-size: 55px;  
+    font-style: bold;
    
 }
 #mission h1 span{
@@ -85,4 +85,36 @@ a {
     text-align: left;
 }
 /* mission section end */
+#mission::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+ /* develop section start  */
+#develop{
+    display: flex;
+    padding: 10%;
 
+}
+#develop .pic{
+    width: 40%;
+}
+#develop img{
+    width: 400px;
+
+}
+#develop .textbox{
+    padding: 40px;
+}
+#develop .textbox a{
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+#develop .textbox h1{
+    color: #333333;   
+    font-size: 45px;
+    font-weight: bold;
+   
+}
+ /* develop section end  */
