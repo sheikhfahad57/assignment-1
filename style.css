@@ -5,7 +5,6 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  /* font-family: 'Yeseva One', cursive; */
 }
 a {
   text-decoration: none;
@@ -37,13 +36,13 @@ a {
   font-family: "Yeseva One", cursive;
   color: #333333;
 }
-#hero .left .textbox .mission {
+#hero .mission {
   color: #ffad5a;
 }
-#hero .left p {
+#hero p {
   padding: 35px 0px;
 }
-#hero .right img {
+#hero img {
   width: 350px;
   margin-left: 100px;
 }
@@ -60,7 +59,7 @@ a {
 }
 
 #mission h1 {
-  color: #13103a;
+  color: #333333;
   font-size: 55px;
   font-style: bold;
 }
@@ -80,12 +79,13 @@ a {
   border-radius: 10px;
   text-align: left;
 }
-/* mission section end */
 #mission::after {
   content: "";
   display: block;
   clear: both;
 }
+/* mission section end */
+
 /* develop section start  */
 #develop {
   display: flex;
@@ -100,11 +100,11 @@ a {
 #develop .textbox {
   padding: 40px;
 }
-#develop .textbox a {
+#develop a {
   display: inline-block;
   margin-top: 30px;
 }
-#develop .textbox h1 {
+#develop h1 {
   color: #333333;
   font-size: 45px;
   font-weight: bold;
@@ -114,7 +114,7 @@ a {
 /* global community start  */
 #community {
   display: flex;
-  padding: 10%;
+  padding: 3% 10%;
 }
 #community .pic {
   width: 40%;
@@ -125,11 +125,11 @@ a {
 #community .textbox {
   padding: 40px;
 }
-#community .textbox a {
+#community a {
   display: inline-block;
   margin-top: 30px;
 }
-#community .textbox h1 {
+#community h1 {
   color: #333333;
   font-size: 45px;
   font-weight: bold;
@@ -137,26 +137,110 @@ a {
 
 /* global community end  */
 
+/* my skill start  */
+
+#my-skill h1 {
+  color: #333333;
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.my-skill {
+  width: 800px;
+  height: 300px;
+  background-color: rgb(187, 165, 169);
+  border-radius: 10px;
+  margin: 2% 0 7% 20%;
+  padding: 40px;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 25px;
+  position: relative;
+}
+ul li::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 12px;
+  background-color: rgb(255, 255, 255);
+  top: 25px;
+  border-radius: 60px;
+}
+ul li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 12px;
+  top: 25px;
+  left: 0;
+  bottom: 0;
+  border-radius: 60px;
+  background-color: #ff5959;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+ul li.html::after {
+  animation-name: html;
+}
+@keyframes html {
+  to {
+    width: 80%;
+  }
+}
+ul li.css::after {
+  animation-name: css;
+}
+@keyframes css {
+  to {
+    width: 70%;
+  }
+}
+ul li.js::after {
+  animation-name: js;
+}
+@keyframes js {
+  to {
+    width: 60%;
+  }
+}
+ul li.python::after {
+  animation-name: python;
+}
+@keyframes python {
+  to {
+    width: 50%;
+  }
+}
+ul li.react::after {
+  animation-name: react;
+}
+@keyframes react {
+  to {
+    width: 40%;
+  }
+}
+/* my skill end */
+
 /* footer start  */
-footer div{
-  background-color: #0B0D17;
+footer div {
+  background-color: #0b0d17;
   height: 177px;
   width: 100%;
 }
-footer div h1{
-  font-family: 'Yeseva One', cursive;
+footer div h1 {
+  font-family: "Yeseva One", cursive;
   color: white;
   text-align: center;
   padding: 25px;
 }
-footer div h1 span{
+footer div h1 span {
   color: #ff5959;
 }
-footer div p{
+footer div p {
   color: white;
   text-align: center;
-}
-footer div p span{
-  color: white;
 }
 /* footer end */
