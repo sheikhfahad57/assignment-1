@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Yeseva One', cursive; */
+}
+a {
+  text-decoration: none;
+  padding: 11px 15px;
+  background-color: #ff5959;
+  color: cornsilk;
+  border-radius: 5px;
+}
+
+/* hero section start */
+#hero {
+  display: flex;
+  padding: 10%;
+}
+#hero .left{
+    width: 50%;
+}
+#hero .right{
+    width: 50%;
+}
+#hero .left .textbox {
+  border-left: 4px solid #ff5959;
+  border-image-slice: 1;
+  border-radius: 1px;
+}
+#hero .left .textbox h1 {
+  margin-left: 10px;
+  font-size: 60px;
+  font-family: "Yeseva One", cursive;
+  color: #333333;
+}
+#hero .left .textbox .mission {
+  color: #ffad5a;
+}
+#hero .left p {
+  padding: 35px 0px;
+}
+#hero .right img{
+    width: 350px;
+    margin-left: 100px;
+}
+/* hero section end  */
