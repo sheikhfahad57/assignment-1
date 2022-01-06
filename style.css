@@ -136,3 +136,27 @@ a {
 }
 
 /* global community end  */
+
+/* footer start  */
+footer div{
+  background-color: #0B0D17;
+  height: 177px;
+  width: 100%;
+}
+footer div h1{
+  font-family: 'Yeseva One', cursive;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+footer div h1 span{
+  color: #ff5959;
+}
+footer div p{
+  color: white;
+  text-align: center;
+}
+footer div p span{
+  color: white;
+}
+/* footer end */
